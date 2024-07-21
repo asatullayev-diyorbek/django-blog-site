@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+
+    {% include 'components/carousel.html' %}
+
+    {% include 'components/featured.html' %}
+
+    {% include 'components/categories.html' %}
+
+    {% include 'components/posts.html' %}
+
+    {% include 'components/offer.html' %}
+
+    {% include 'components/vendor.html' %}
+
+{% endblock %}
